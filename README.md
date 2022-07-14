@@ -3,7 +3,7 @@ It changes your wallpaper randomly according the queries you have provided from 
 
 ---------------------------------------------------------------------------------------------------
 
-### Module dependecies for thies script:-
+### Module dependecies for this script:-
 
 - requests
 - urllib
