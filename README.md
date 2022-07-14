@@ -24,6 +24,7 @@ https://unsplash.com/developers
 - Query
 - Wallpaper Orientation
 - Time interval duration of wallpaper change 
+- Download Destination Path
 
 ---------------------------------------------------------------------------------------------------
 
