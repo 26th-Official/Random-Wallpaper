@@ -1,3 +1,10 @@
+# Module dependecies for thies script are Spotipy,urllib,csv,Youtube_dl,re
+# You can install these by running the following:-
+
+# pip install requests
+# pip install urllib
+
+
 from requests import ConnectionError
 import requests
 import urllib.request
@@ -5,14 +12,14 @@ import time
 import ctypes
 import os
 
-client_id = input("Enter your Unsplash Access key:- ")
-query = input("Enter your Query:- ")
-orientation = input("Enter the Image Orientation (portrait or landscape):- ")
-duration = int(input("Enter the desired time interval for wallpaper change(In Seconds):- "))
+client_id = "-------------------------------------"     # Enter your Unsplash Access key here
+query = "------------------------"                      # Enter your Query here
+orientation = "---------------"                         # Enter the Image Orientation (portrait or landscape) here
+duration = 15                                           # Enter the desired time interval for wallpaper change(In Seconds) here
 
 
 
-directory_path = r"D:\python\Unsplash\Wallpapers"
+directory_path = r"D:\python\Unsplash\Wallpapers"  # Enter your destination path for the downloads here
 files = os.listdir(directory_path)
 count = len(files)
 
